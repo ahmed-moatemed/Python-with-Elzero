@@ -1,7 +1,14 @@
-def sayHello(name) : 
+"""
+This Is My Module For 
+DocString
+"""
 
-  print(f"Hello {name}")
+def say_hello(name) :
 
-def sayHowAreYou(name) : 
+    '''THis Is My DocStirng'''
+    msg = "Hello"
 
-  print(f"How Are You {name}?")
+    return f"{msg} {name}"
+
+
+say_hello("Ahmed")
