@@ -1,0 +1,20 @@
+CRITICAL:root:This Is Critical Message
+root
+root
+root
+root
+Logger Name: root CRITICAL
+Logger Name: root CRITICAL This Is Critical Message
+Logger Name: 2026-08-02 16:11:05,844 root CRITICAL This Is Critical Message
+Logger Name: 2026-08-02 16:11:19,359 root CRITICAL This Is Critical Message
+Logger Name: 2026-08-02 16:11:25,842 root CRITICAL This Is Critical Message
+Logger Name: 2026-08-02 16:11:29,888 root CRITICAL This Is Critical Message
+Logger Name: 2026-08-02 16:11:32,180 root CRITICAL This Is Critical Message
+Logger Name: (2026-08-02 16:12:30,348) => | root | CRITICAL => 'This Is Critical Message'
+Logger Name: (2026-08-02 16:12:57,893) | root | ERROR => 'This Is Error Message'
+Logger Name: (2026-08-02 16:13:34,422) | root | WARNING => 'This Is Warning Message'
+Logger Name: (02 - August - 2026, 16:16:04) | root | WARNING => 'This Is Warning Message'
+Logger Name: (02 - August - 2026, 16:16:05) | root | WARNING => 'This Is Warning Message'
+Logger Name: (02 - August - 2026, 16:17:47) | MO33 | WARNING => 'This Is Warning Message'
+Logger Name: (02 - August - 2026, 16:17:48) | MO33 | WARNING => 'This Is Warning Message'
+Logger Name: (02 - August - 2026, 16:18:37) | MO33 | WARNING => 'This Is Warning Message With Mo3'
