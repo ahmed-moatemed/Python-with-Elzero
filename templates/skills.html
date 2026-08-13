@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<h1 class="page_head">{{ page_head }}</h1>
+<p class="page_description">{{ description }}</p>
+
+
+{% for skill, progress in skills %}
+<div class="skill-box">
+    <div class="skill-name">{{skill}}</div>
+    <div class="skill-progress">
+        <!-- <span style="width: {{ progress }}%"></span> -->
+        <span data-width="{{progress}}%" ></span>
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}
